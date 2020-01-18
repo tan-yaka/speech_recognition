@@ -15,15 +15,15 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.5'
 
     lintOptions {
         disable 'InvalidPackage'
     }
 
     defaultConfig {
-        minSdkVersion 28
+        minSdkVersion 21
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
